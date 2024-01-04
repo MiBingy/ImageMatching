@@ -46,7 +46,7 @@ def find_matching_image(screenshot_path, main_folder):
                         similarity_score = diff.mean()
 
                         # debug to print scores
-                        print(f"Image: {image_path}, Similarity Score: {similarity_score}")
+                        # print(f"Image: {image_path}, Similarity Score: {similarity_score}")
 
                         # You can experiment with different similarity thresholds
                         if similarity_score > 0.8 and similarity_score > best_match_score:
