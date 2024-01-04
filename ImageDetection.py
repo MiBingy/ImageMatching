@@ -68,7 +68,8 @@ def find_matching_image(screenshot_path, main_folder):
 if __name__ == "__main__":
     while True:
         # Define the main folder to search through
-        main_folder = r"C:\Users\zwalt\Desktop"
+        main_folder = r"C:\your\path\here"
+        # main_folder = = input("Enter the path of the main directory (type 'kill' to end): ")
 
         # Get the screenshot path from the user
         screenshot_path = input("Enter the path of the screenshot image (type 'kill' to end): ")
