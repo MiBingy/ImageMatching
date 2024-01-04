@@ -27,7 +27,7 @@ cd ImageMatching
 python ImageMatching.py
 
 ```
-4. Enter paths
+4. Enter path
 
 
 
