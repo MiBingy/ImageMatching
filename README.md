@@ -3,6 +3,7 @@
 This program allows users to find a matching image within a specified folder based on a provided screenshot.
 
 ## Requirements
+python 3.10
 ```
 
 pip install opencv-python scikit-image Pillow numpy
